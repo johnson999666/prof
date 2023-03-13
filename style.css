@@ -82,12 +82,14 @@ body {
 } 
 
 .d {
-
+    display: flex;
+    flex-wrap: wrap;
    
 
 }
 #bio {
     padding: 30px;
+    flex: 1;
 }
 .js {
     
