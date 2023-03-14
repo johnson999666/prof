@@ -12,10 +12,6 @@ body {
     line-height: 1.5;
     margin: 0;
     padding: 0;
-    display: flex;
-        justify-content: center; /* horizontally center the child elements */
-        align-items: center; 
-    
 }
 
 .home {
@@ -86,25 +82,18 @@ body {
 } 
 
 .d {
-  display: flex;
-    justify-content: center; /* horizontally center the child elements */
-        align-items: center; 
-
-  
-  
-    background-color: red;
-}
-
-#bio {
-  padding: 30px;
-  
-  display: flex;
-  align-items: center;
+    display: flex;
     flex-wrap: wrap;
-  
-  text-align: center; /* Add this property to center the block of text */
-}
+    
+   
 
+}
+#bio {
+    padding: 30px;
+    flex: 1;
+    
+
+}
 .js {
     
     height: 25px;
