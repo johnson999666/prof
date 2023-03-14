@@ -84,7 +84,7 @@ body {
 .d {
     display: flex;
     flex-wrap: wrap;
-    
+    width: 200vh;
    
 
 }
