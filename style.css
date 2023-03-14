@@ -87,7 +87,9 @@ body {
 
 .d {
   display: flex;
-  flex-wrap: wrap;
+    justify-content: center; /* horizontally center the child elements */
+        align-items: center; 
+
   
   
     background-color: red;
@@ -98,7 +100,7 @@ body {
   
   display: flex;
   align-items: center;
-  
+    flex-wrap: wrap;
   
   text-align: center; /* Add this property to center the block of text */
 }
