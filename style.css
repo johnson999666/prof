@@ -90,6 +90,7 @@ body {
 }
 #bio {
     padding: 30px;
+    flex-wrap: wrap;
     flex: 1;
     
 
