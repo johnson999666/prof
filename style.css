@@ -1,145 +1,83 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-
-/* Other CSS rules here */
 
 
-
-body {
-    background-color: black;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
+html, body {
+    height: 100%;
+    width: 100%;
     margin: 0;
     padding: 0;
-}
-
-.home {
-    position: fixed;
-    background-color: grey;
-}
-
-.a {
-    
-        display: flex;
-        justify-content: center; /* horizontally center the child elements */
-        align-items: center; /* vertically center the child elements */
-        background-image: url('keys.jpg');
-        background-size: cover;
-        background-position: center;
-        height: 100vh;
-      }
+    font-family: 'Chronicle Display';
+  }
 #title {
-    font-family: 'Roboto', sans-serif; /* use a sans-serif font */
-    font-weight: bold; /* make the font weight bold */
-    font-size: 40vh; /* adjust the font size to your liking */
-    text-align: center; /* center the text within the div */
-    color: #333; /* set a color for your title */
-}
-
-
-
-.b {
-   
-    display: flex;
-    justify-content: right;
-    align-items: right;
-    font-family: 'Pacifico', cursive;
-}
-
-#name {
-   
-    text-align: right;
+    font-size: 48px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    color: #3F51B5;
+    text-align: center;
+    margin-top: 50px;
     
-}
-#jl {
-    border-radius: 50%;
-    height: 25px;
-    width: 25px;
-   
-    
-}
+    text-shadow: 2px 2px #251d20;
+  }
 
-
-.c {
-   
+  .title {
     display: flex;
     justify-content: center;
     align-items: center;
-
-}
-#about {
-    margin-right: 100px;
-    
-}
-.me {
-    height: 25vh;
-    width: 25vh;
-    margin-left: 100px;
-    border-radius: 10px;
-    background-color: black;
-    
-} 
-
-.d {
+  }
+  .text {
     display: flex;
-    flex-wrap: wrap;
-    width: 200vh;
-   
-
-}
-#bio {
-    padding: 30px;
-    flex-wrap: wrap;
-    flex: 1;
     
-
-}
-.js {
+  }
+  #text {
     
-    height: 25px;
-    width: 25px;
-}
-
-.e {
-    
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-bottom: 25px;
+  }
+.title2 {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    border: 1px solid #ccc;
+    flex-direction: column;
+    
+
 }
-#python {
-    height: 100px;
+#title2 {
+    margin-left: 50px;
+}
+.pic1 {
+    display: flex;
+}
+
+#pic1 {
     width: 100px;
-    border-radius: 50%;
-    background-color: black;
+  height: 100px;
+  object-fit: cover;
+  object-position: center;
+  margin-left: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
-.react {
-    height: 25px;
-    width: 35px;
-    background-color: black;
-}
-.f {
-    background-color: black;
-}
-.g {
-    background-color: magenta;
-}
-.h {
-    background-color: forestgreen;
-}
-.i {
-    background-color: moccasin;
-}
-.j {
-    background-color: tomato;
+.bio {
+    margin: 30px;
 }
 
-footer {
-    
-    display: flex;
-    justify-content: center; /* horizontally center the child elements */
-    align-items: center;
-    background-color: white;
+#slideshow-container {
+  width: 10%;
+  height: 5%;
+  overflow: hidden;
+  
+}
+.slideshow {
+  width: 300%;
+  height: 100%;
+  display: flex;
+  transition: transform 0.5s ease;
+ 
 }
 
+.slideshow img {
+  width: 33.33%;
+  height: 100%;
+  object-fit: cover;
+  
+}
 
