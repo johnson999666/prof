@@ -1,4 +1,3 @@
-
 var mySwiper = new Swiper('.swiper-container', {
     loop: true,
     autoplay: {
@@ -8,6 +7,6 @@ var mySwiper = new Swiper('.swiper-container', {
       el: '.swiper-pagination',
       clickable: true,
     },
-    freeMode: true, // enable free mode scrolling
+    loopedSlides: 5,
   });
   
