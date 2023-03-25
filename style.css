@@ -77,6 +77,9 @@ html, body {
   height: 50px; /* adjust this value as needed */
   margin-right: 20px;
   margin-left: 20px;
+  display: block; /* make the image a block-level element */
+  margin: 0 auto; /* center the image horizontally */
+
 }
 
 
